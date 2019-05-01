@@ -1,3 +1,9 @@
+BE SURE TO RUN 'NPM INSTALL' THEN 'NPM START' TO MAKE SURE YOU HAVE THE DEPENDENCIES INSTALLED AND SO IT RUNS IN YOUR BROWSER.
+Also make sure you have your own API Key to be able to have access to the page.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
