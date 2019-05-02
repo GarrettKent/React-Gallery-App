@@ -69,9 +69,10 @@ class App extends Component {
             <Route path="/baseball" render={() => <Gallery pictures={this.state.baseballPictures}/>} />
             <Route path="/football" render={() => <Gallery pictures={this.state.footballPictures}/>} />
             {
-              (this.state.loading)
-              ? <p>The Page Is Loading</p>
-              : <Route exact path="/:query" render={() => <Gallery pictures={this.state.pictures}/>} />
+              <Route exact path = '/:query' render = { () => (this.state.loading)
+               ? <p> Loading...</p> 
+               : <Gallery pictures={this.state.pictures} />} 
+              />
             }
             {<Route component={Error}/>}
           </Switch>
